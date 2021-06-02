@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+	<Resource
+    	auth="Container"
+    	name="jdbc/maria-audio"
+    	type="javax.sql.DataSource"
+    	driverClassName="org.mariadb.jdbc.Driver"
+    	loginTimeout="10"
+    	maxWait="5000"
+    	username="voicecloud"
+    	password="r@re0752"
+    	testOnBorrow="true"
+    	maxActive="500"
+    	maxIdle="100"
+    	url="jdbc:mysql://10.0.1.173:3306/test"
+    />
+</Context>

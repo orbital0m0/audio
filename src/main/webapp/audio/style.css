@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.title{
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	height: 50px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: #528dfa;
+}
+table {
+	width: 80%;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 auto;
+}
+
+tr, th, td{
+	border: 1px solid #000;
+}
+
+th{
+	background-color: #528dfa;
+	line-height: 30px;
+	color: #fff;
+}
+.page{
+	margin-top: 10px;
+	text-align: center;
+}
+.container audio#audio{
+	margin: 10px 0;
+}
+button{
+	margin: 3px;
+	border: 0px;
+	padding: 0.5rem 0.75rem;
+	border-radius: 20px;
+}
+button:hover{
+	background-color: #528dfa;
+	color: #fff;
+}
